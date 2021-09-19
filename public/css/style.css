@@ -27,13 +27,6 @@
 
     margin-bottom: 200px;
 }
-.banner span img{
-    position: absolute;
-
-    top:330px;
-    right: 10px;
-
-}
 
 /* Conteúdo e proposta do hotsite */
 
@@ -53,6 +46,7 @@
 .container .contents p{
     margin-top: 40px;
     margin-bottom: 50px;
+
     word-spacing: 5px;
     color: #393f47;
 }
@@ -63,8 +57,16 @@
     text-align:center ;
 }
 .container .option-buttons a{
-    margin:10px 0 0 20px;
+    margin:10px 20px;
     padding: 10px;
+    
+    border: 2px solid #082149;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 0  #082149;
+    outline: none;
+    color:#393f47;
+
+    transition: .50s ease-in;
 }
 .container .option-buttons a:nth-child(1){
     padding: 10px 53px 10px 53px;
@@ -73,4 +75,9 @@
 .container .option-buttons a:nth-child(2){
     padding: 10px 25px 10px 25px;
     
+ }
+ .container .option-buttons a:hover{
+    box-shadow: inset 300px 0 0 0  #082149;
+    border:2px solid #fff;
+    color:#f0ffff;
  }
