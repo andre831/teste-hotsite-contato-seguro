@@ -24,7 +24,7 @@
     background-color: #082149;
 }
 .navbar ul{
-    padding-bottom: 18vh;
+    padding-bottom: ;
     border-bottom: 3px solid #fff;
 }
 .navbar ul li:nth-child(1){
@@ -63,43 +63,45 @@
 }
 
 .banner-content{
-    
     margin-top: 50px !important;
     padding: 20% 0 22% 100% ;
-    
+    background: #f0e68caf;
     text-align: right;  
 }
-.banner-content p{
-    text-align:right;
-    font-size: 1.6em;
+.banner-content ul li{
+    list-style: none;
+}
+.banner-content ul li p{
+    margin-top: 0;
+    text-align: left;
+    font-size: 1.4em;
     font-weight: 700;
     color: #082149;
 }
-.banner-content p::first-line{
-    text-align: left;
-}
-.banner-content span{
+.banner-content ul li a{
     margin-bottom: 100px;
-    font-size: 3em;
+    font-size: 3em !important;
     font-weight: 700;
     text-shadow:1px 1px 1px rgb(0, 0, 0);
-    color: #f7a600;
-}
-.banner-content span a{
     text-decoration:none;
     color: #f7a600;
-
     transition: 0.30s;
 }
-.banner-content span a:hover{
+.banner-content ul li a:hover{
     color: #f7d200;
 }
+
+.banner-content .barra{
+    margin-right: 335px ;
+    margin-bottom: 5px;
+    text-align: left;   
+    border-top: 5px solid;
+    box-sizing: border-box;
+    color: #082149;
+}
+
 .banner-content span img{
-    position: absolute;
-    margin-top:18vh;
-    right: 55px;
-    border:10px solid #f7a600;
-    background-color: #f7a600;
+    display: none;
 }
 
 /* Conteúdo e proposta do hotsite */
