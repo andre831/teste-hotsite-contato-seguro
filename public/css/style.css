@@ -79,9 +79,6 @@
     font-weight: 700;
     color: #082149;
 }
-.banner-content ul li:nth-child(3),.banner-content ul li:nth-child(2),.banner-content ul li:nth-child(1){
-    
-}
 .banner-content ul li a{
     margin-bottom: 100px;
     font-size: 2.5em;
@@ -181,3 +178,22 @@
     width: 18vh;
 }
 
+/* Tablet and < 573px */
+@media (min-width: 573px){
+    .navbar ul li a{
+        font-size: 1.3em;
+    }
+    .banner-content{
+        background: none;  
+    }
+    .banner-content ul li:nth-child(3),.banner-content ul li:nth-child(2),.banner-content ul li:nth-child(1){
+        margin-left: 36%;
+    }
+    .banner-content ul li p{
+        font-size: 1.4em;
+    }
+    .banner-content ul li a{
+       font-size: 3em;
+       text-shadow: 1px 1px 1px #082149;
+    }
+}
