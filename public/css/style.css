@@ -24,7 +24,7 @@
     background-color: #082149;
 }
 .navbar ul{
-    padding-bottom: ;
+    padding-bottom: 18vh;
     border-bottom: 3px solid #fff;
 }
 .navbar ul li:nth-child(1){
@@ -92,7 +92,7 @@
 }
 
 .banner-content .barra{
-    margin-right: 335px ;
+    width:88px ;
     margin-bottom: 5px;
     text-align: left;   
     border-top: 5px solid;
