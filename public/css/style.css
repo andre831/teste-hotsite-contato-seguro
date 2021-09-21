@@ -133,10 +133,11 @@
 
 /* Botões */
 .container .option-buttons{
-    margin:0 auto;
+    margin:10px 0 120px 0;
     text-align:center ;
 }
 .container .option-buttons a{
+    margin: 10px 0 10px;
     padding: 10px;
     
     border: 2px solid #082149;
@@ -148,10 +149,10 @@
     transition: .65s ease-in;
 }
 .container .option-buttons a:nth-child(1){
-    padding: 10px 68px 10px 68px;
+    padding: 10px 53px 10px 53px;
 }
 .container .option-buttons a:nth-child(2){
-    padding: 10px 40px 10px 40px;  
+    padding: 10px 25px 10px 25px;  
 }
 .container .option-buttons a:hover{
     box-shadow: inset 300px 0 0 0  #082149;
@@ -292,6 +293,7 @@
         margin:40px 0 150px 0;
         text-align:center ;
     }
+    
     .container .option-buttons a{
         margin:10px 20px;
         padding: 40px;
@@ -303,6 +305,12 @@
         color:#393f47;
     
         transition: .65s ease-in;
+    }
+    .container .option-buttons a:nth-child(1){
+        padding: 10px 68px 10px 68px;
+    }
+    .container .option-buttons a:nth-child(2){
+        padding: 10px 40px 10px 40px;  
     }
 
     .footer{
