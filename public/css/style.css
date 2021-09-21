@@ -13,8 +13,7 @@
 ::-webkit-scrollbar-thumb{
     width: 3px;
     border-radius:10px;
-    background:  #0412533a;
-    
+    background:  #0412533a
 }
 
 /* Barra de navegação */
@@ -96,8 +95,8 @@
 }
 
 .banner-content .barra{
-    width:75px;
     margin-bottom: 10px;
+    width:75px;
     text-align: left;   
     border-top: 3px solid #082149;
     box-sizing: border-box;
@@ -232,8 +231,10 @@
 
 /* Tablet and < 1200px */
 @media (min-width: 1200px){
+    .navbar ul li a:hover{
+        margin-left: 5px;
+    }
     /* Banner - Boas vindas */
-    
     .banner-content{
         margin-top: 50px !important;
         padding: 12% 0 12%  ;
@@ -246,10 +247,6 @@
     .banner-content ul li:nth-child(3){
         margin-right: 5%;
     }
-    .banner-content span img{
-        margin-right: 11%;
-    }
-    
     .banner-content ul li{
         list-style: none;
         line-height: 45px;
@@ -266,16 +263,15 @@
         color: #f7a600;
         transition: 0.30s;
     }
-    .navbar ul li a:hover{
-        margin-left: 5px;
-    }
     .banner-content .barra{
         width:125px;
         margin-bottom: 12px;
         text-align: left;   
         border-top: 4px solid #082149;
         box-sizing: border-box;
-        
+    }
+    .banner-content span img{
+        margin-right: 11%;
     }
 
     /* Conteúdo -  Proposta*/
