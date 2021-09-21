@@ -272,7 +272,10 @@
     .banner-content .barra{
         width:125px;
         margin-bottom: 12px;
-        border-top: 4px solid;
+        text-align: left;   
+        border-top: 4px solid #082149;
+        box-sizing: border-box;
+        
     }
 
     /* Conteúdo -  Proposta*/
