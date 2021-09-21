@@ -1,7 +1,7 @@
 # Teste Hot-Site Contato Seguro 
 
 Olá Equipe Contato Seguro, já beberam água hoje?  
-Hoje trago para vocês o que foi solicitado para o desenvolvimento o Teste Hot-site
+Hoje trago para vocês o que foi solicitado para o desenvolvimento do Teste Hot-site.
 
 
 ## Considerações
