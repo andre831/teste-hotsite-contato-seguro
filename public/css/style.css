@@ -197,3 +197,37 @@
        text-shadow: 1px 1px 1px #082149;
     }
 }
+
+/* Tablet and < 992px */
+@media (min-width: 992px){
+    .navbar{
+        text-align: center;
+    }
+    .navbar ul{
+        margin-left: 19%;
+        padding: 5px;
+        border-bottom: none;
+    }
+    .navbar ul li:nth-child(1){
+        margin-top: 0;
+    }
+    .navbar ul li a{
+        font-size: 1em;
+    }
+    .banner-content{
+        margin-top: 50px !important;
+        padding: 12% 0 15%  ;
+        background: none;
+        text-align: right;  
+    }
+    .banner-content ul li:nth-child(3),.banner-content ul li:nth-child(2),.banner-content ul li:nth-child(1){
+        margin-left: 66%;
+    }
+    .banner-content ul li p{
+        font-size: 1.4em;
+    }
+    .banner-content ul li a{
+        font-size: 3em;
+        text-shadow: 1px 1px 1px #082149;
+    }
+}
